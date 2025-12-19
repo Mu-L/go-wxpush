@@ -55,13 +55,13 @@ docker build -t go-wxpush:v2 .
 - 启动镜像，参数与命令行保持一致
 ```
 docker run -d -p 5566:5566 --name go-wxpush0 go-wxpush:v2 \
--port "5566"
--title "测试标题" 
--content "测试内容" 
--appid "xxx" 
--secret "xxx" 
--userid "xxx-k08" 
--template_id "xxx-Ks_PwGm--GSzllU"
+-port "5566" \
+-title "测试标题" \
+-content "测试内容" \
+-appid "xxx" \
+-secret "xxx" \
+-userid "xxx-k08" \
+-template_id "xxx-Ks_PwGm--GSzllU" \
 ```
 
 ## 🗭 默认消息详情页
